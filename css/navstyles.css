@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+/* unvisited links */
+a:link {
+    /* color: blue */
+}
+
+/* visited links       */
+a:visited {
+    /* color: #0c0 */
+}
+
+/* highlighted links */
+a:hover,
+a:focus {
+    color: gray
+}
+
+/* on click */
+a:active {
+    /* color: #ccc */
+}
+
+nav a:link, footer a:link {
+    color: black
+}
+
+nav a:visited, footer a:visited {
+    color: black
+}
+
+/* visited links         */
+nav a:hover,
+nav a:focus, footer a:hover,
+footer a:focus {
+    color: gray
+}
+
+/* user hovers, or focus */
+nav a:active, footer a:active {
+    color: black
+}

@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+}
+
+h1, h2, h3 {
+    font-family: 'DMSans', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 720px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+main {
+    flex: 1;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.natural-gallery-js .figure.zoomable:hover .image,
+.natural-gallery-js .image.zoomable:hover {
+    /* This is the default hover effect when hovering the element that opens PhotoSwipe */
+    transform: rotate(1deg) scale(1.2);
+}
