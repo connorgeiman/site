@@ -420,17 +420,21 @@ div.pswp__img--placeholder,
 }
 
 .pswp__custom-caption {
-  background: rgba(75, 150, 75, 0.75);
-  font-size: 16px;
-  color: #fff;
-  width: calc(100% - 32px);
-  max-width: 400px;
-  padding: 2px 8px;
-  border-radius: 4px;
+  background: lightgray;
+  font-size: 18px;
+  color: black;
+  width: calc(95%);
+  max-width: 450px;
+  padding: 2px 8px 4px 8px;
+  border-radius: 0px;
   position: absolute;
   left: 50%;
   bottom: 16px;
   transform: translateX(-50%);
+  font-family: 'Open Sans', serif;
+  font-style: italic;
+  text-align: center;
+  
 }
 .pswp__custom-caption a {
   color: #fff;

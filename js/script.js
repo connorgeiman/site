@@ -7,15 +7,17 @@
 // });
 // lightbox.init();
 
-// TODO: add caption to lightbox
 
 import PhotoSwipeLightbox from '../libs/photoswipe/photoswipe-lightbox.esm.js';
+
 const options = {
   gallery:'#gallery--with-custom-caption',
   children:'a',
   pswpModule: () => import('../libs/photoswipe/photoswipe.esm.js')
 };
+
 const lightbox = new PhotoSwipeLightbox(options);
+
 lightbox.on('uiRegister', function() {
   lightbox.pswp.ui.registerElement({
     name: 'custom-caption',
@@ -42,4 +44,5 @@ lightbox.on('uiRegister', function() {
     }
   });
 });
+
 lightbox.init();

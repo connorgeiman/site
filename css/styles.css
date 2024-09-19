@@ -47,6 +47,7 @@ body {
     max-width: 720px;
     padding: 0 20px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -75,4 +76,14 @@ footer {
 .natural-gallery-js .image.zoomable:hover {
     /* This is the default hover effect when hovering the element that opens PhotoSwipe */
     transform: rotate(1deg) scale(1.2);
+}
+
+.pswp-gallery a {
+    text-decoration: none;
+}
+
+summary {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
