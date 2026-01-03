@@ -40,6 +40,12 @@ p, li {
 }
 
 
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -48,6 +54,7 @@ body {
     padding: 0 20px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 main {
