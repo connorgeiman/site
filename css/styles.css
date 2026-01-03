@@ -63,33 +63,6 @@ main img {
     margin: 0 auto;
 }
 
-nav ul, footer ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-footer {
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0 0 0;
-    text-align: center;
-}
-
-.natural-gallery-js .figure.zoomable:hover .image,
-.natural-gallery-js .image.zoomable:hover {
-    /* This is the default hover effect when hovering the element that opens PhotoSwipe */
-    transform: rotate(1deg) scale(1.2);
-}
-
-.pswp-gallery a {
-    text-decoration: none;
-}
 
 summary {
     font-family: 'Open Sans', sans-serif;
